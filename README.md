@@ -63,3 +63,31 @@ Press Ctrl+C to stop the scheduler.
 ---
 
 
+ ## 2. no_interruption_two_triggers
+
+ **Summary**
+
+This is exactly the same as before.
+
+BUT, THIS TIME, if a trigger is already enqueued in the
+FIFO, it is not enqueued again.
+
+
+**Setup**
+
+Same as fefore
+
+
+**How to execute**
+
+From the repository root, activate the virtual environment
+and run the demo:
+
+```bash
+source .venv/bin/activate
+python no_interruption_two_triggers/main.py
+```
+
+Press Ctrl+C to stop the scheduler.
+
+---
